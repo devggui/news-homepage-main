@@ -34,7 +34,7 @@ body {
   flex-direction: column;  
   background-color: var(--neutral-off-white);
   margin: 50px 200px;
-  max-width: 1440px;
+  max-width: 1440px;  
 }
 
 header {
@@ -60,13 +60,12 @@ main {
 }
 
 .img-toys {
-  width: 800px;    
+  min-width: 800px; 
   height: 300px;
   margin-bottom: 30px;
 }
 
 .content-left {
-  /* max-width: 800px; */
   justify-content: space-between;
 }
 
@@ -99,9 +98,8 @@ main {
   flex-direction: column;
   margin-left: 30px;
   background: var(--neutral-very-dark-blue);
-  padding: 20px;
-  /* max-width: 400px;   */
-  justify-content: center;
+  padding: 20px;  
+  justify-content: center;  
 }
 
 .content-right h1 {
@@ -124,10 +122,11 @@ hr {
 footer {
   display: flex;
   flex-direction: row;
+  margin-top: 20px;
 }
 
 footer > img {
-  margin-right: 10px;
+  margin-right: 20px;
   width: 100px;
   height: 100px;
 }
